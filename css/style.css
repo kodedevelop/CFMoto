@@ -1,0 +1,5 @@
+@import url('./arquivoBase.css');
+
+/* CSS - Home */
+@import url(home/cssFooter/footer.css);
+@import url(home/cssFooter/responsividadeFooter.css);
