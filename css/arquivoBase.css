@@ -51,3 +51,20 @@ main{
   --preto1: #000;
 }
 
+
+
+/* Telas com 495px - 649px*/
+@media screen and (min-width: 495px) and (max-width: 649px){
+  main{
+    padding: 40px;
+    gap: 120px;
+  }
+}
+
+/* Telas com ...px - 494px*/
+@media screen and (max-width: 649px){
+  main{
+    padding: 20px;
+    gap: 80px;
+  }
+}

@@ -1,0 +1,101 @@
+/* Telas com 905px - 1080px*/
+@media screen and (min-width: 950px) and (max-width: 1095px){
+    div.veiculos{
+        justify-content: space-around;
+    }
+
+    /* Card dos veículos */
+    article.veiculo{
+        width: 400px;
+    }
+}
+
+/* Telas com 755px - 954px*/
+@media screen and (min-width: 755px) and (max-width: 954px){
+    div.veiculos{
+        justify-content: space-around;
+    }
+}
+
+/* Telas com 595px - 754px*/
+@media screen and (min-width: 525px) and (max-width: 754px){
+    div.veiculos{
+        justify-content: space-around;
+    }
+
+    /* Card dos veículos */
+    article.veiculo{
+        width: 220px;
+    }
+}
+
+/* Telas com 450px - 754px*/
+@media screen and (min-width: 515px) and (max-width: 525px){
+    section.sectionVeiculos h1{
+        font-size: 28px;
+    }
+
+    /* Container com os veículos */
+    div.veiculosContent h2{
+        margin-left: 42px;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    div.veiculosContent h2::before{
+        left: -42px;
+        top: 55%;
+        width: 30px;
+        height: 2px;
+        border-radius: 99px;
+        background-color: var(--preto1);
+    }
+
+    div.veiculos{
+        justify-content: space-around;
+    }
+
+    /* Card dos veículos */
+    article.veiculo{
+        width: 220px;
+    }
+}
+
+/* Telas com 450px - 449px*/
+@media screen  and (max-width: 514px){
+    section.sectionVeiculos h1{
+        font-size: 24px;
+    }
+
+    /* Container com os veículos */
+    div.veiculosContent h2{
+        margin-left: 42px;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    div.veiculosContent h2::before{
+        left: -42px;
+        top: 55%;
+        width: 30px;
+        height: 2px;
+        border-radius: 99px;
+        background-color: var(--preto1);
+    }
+
+    /* Card dos veículos */
+    article.veiculo{
+        width: 100%;
+        gap: 8px;
+    }
+
+    article.veiculo p{
+        font-size: 28px;
+    }
+
+    article.veiculo button{
+        margin: 0 auto;
+        width: 70%;
+        font-size: 12px;
+    }
+}

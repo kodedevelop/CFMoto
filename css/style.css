@@ -1,6 +1,7 @@
 @import url('arquivoBase.css');
 
 /* CSS - Home */
-@import url(home/cssVeiculos/veiculos.css);
-@import url(home/cssFooter/footer.css);
+@import url(home/cssVeiculos/defaultVeiculos.css);
+@import url(home/cssVeiculos/responsividadeVeiculos.css);
+@import url(home/cssFooter/defaultFooter.css);
 @import url(home/cssFooter/responsividadeFooter.css);
