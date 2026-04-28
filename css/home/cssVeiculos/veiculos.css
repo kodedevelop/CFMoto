@@ -1,0 +1,103 @@
+/* Section - Veículos */
+section.sectionVeiculos{
+    max-width: 970px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+section.sectionVeiculos h1{
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+/* Container com os veículos */
+div.veiculosContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+}
+
+div.veiculosContent h2{
+    position: relative;
+    margin-left: 62px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.veiculosContent h2::before{
+    position: absolute;
+    content: "";
+    left: -62px;
+    top: 55%;
+    width: 50px;
+    height: 2px;
+    border-radius: 99px;
+    background-color: var(--preto1);
+}
+
+div.veiculos{
+    max-width: 970px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+/* Card dos veículos */
+article.veiculo{
+    flex-shrink: 1;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+article.veiculo img{
+    transition: scale .3s;
+}
+
+article.veiculo img:hover{
+    scale: 1.2;
+}
+
+article.veiculo h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+article.veiculo p{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--amarelo-claro1);
+}
+
+article.veiculo button{
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid var(--preto1);
+    padding: 8px 32px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--preto1);
+    background-color: transparent;
+    transition: all .3s;
+}
+
+article.veiculo button:hover{
+    color: var(--branco1);
+    background-color: var(--preto1);
+}
+
+article.veiculo button:active{
+    scale: .8;
+}

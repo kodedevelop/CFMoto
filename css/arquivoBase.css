@@ -10,27 +10,44 @@
 @font-face {
   font-family: "SupremeLL";
   src: url("../assets/fonts/SupremeLL-Bold.otf") format("truetype");
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
 }
 
 /* - Reset CSS */
 *{
-    box-sizing: border-box;
-    font-family: var(--font-SupremeLL);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  box-sizing: border-box;
+  font-family: var(--font-SupremeLL);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 body{
-    background-color: #fff;
+  background-color: var(--branco1);
+}
+
+main{
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 160px;
 }
 
 /* Variáveis */
 :root{
-    /* - Tipografia */
-    --font-SupremeLL: "SupremeLL", sans-serif;
+  /* - Tipografia */
+  --font-SupremeLL: "SupremeLL", sans-serif;
+
+  /* - Cores */
+  --amarelo-claro1: #D2B866;
+  --branco1: #FFF;
+  --cinza1: #3C3C3C;
+  --cinza2: #585858;
+  --cinza3: #C2C2C2;
+  --cinza4: #D4D4D4;
+  --preto1: #000;
 }
 
