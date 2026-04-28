@@ -1,0 +1,66 @@
+@import url(../../arquivoBase.css);
+
+.contato {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+}
+
+.contato .contato-informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 56px;
+}
+
+.contato .contato-informacoes h2{
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.contato .contato-informacoes p{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.contato .contato-informacoes img{
+  width: 360px;
+  opacity: 20%;
+}
+
+.contato .formulario-contato p {
+  font-weight: 400;
+  font-size: 13px;
+  max-width: 444px;
+  margin-bottom: 28px;
+}
+
+.contato .formulario-contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contato .formulario-contato form input{
+  width: 444px;
+  height: 52px;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.contato .formulario-contato form input::placeholder {
+  font-size: 16px;
+  color: #c2c2c2;
+}
+.contato .formulario-contato button{
+  width: 444px;
+  height: 56px;
+  background-color: #585858;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
