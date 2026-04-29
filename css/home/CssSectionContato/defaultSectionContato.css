@@ -2,8 +2,9 @@
 
 .contato {
   display: flex;
-  gap: 120px;
   justify-content: center;
+  gap: 120px;
+  padding: 80px 24px;
 }
 
 .contato .contato-informacoes {
@@ -13,19 +14,25 @@
   margin-top: 56px;
 }
 
-.contato .contato-informacoes h2{
+.contato .contato-informacoes h2 {
   font-weight: 700;
   font-size: 48px;
+  color: var(--preto1);
 }
 
-.contato .contato-informacoes p{
+.contato .contato-informacoes p {
   font-weight: 400;
   font-size: 20px;
+  color: var(--cinza2);
 }
 
-.contato .contato-informacoes img{
+.contato .contato-informacoes img {
   width: 360px;
   opacity: 20%;
+}
+
+.contato .formulario-contato {
+  width: 444px;
 }
 
 .contato .formulario-contato p {
@@ -33,6 +40,7 @@
   font-size: 13px;
   max-width: 444px;
   margin-bottom: 28px;
+  color: var(--cinza2);
 }
 
 .contato .formulario-contato form {
@@ -41,26 +49,197 @@
   gap: 24px;
 }
 
-.contato .formulario-contato form input{
-  width: 444px;
+.contato .formulario-contato form input {
+  width: 100%;
   height: 52px;
-  border: 1px solid #3c3c3c;
+  border: 1px solid var(--cinza1);
   border-radius: 8px;
-  padding-left: 16px;
+  padding: 0 16px;
   font-size: 16px;
+  color: var(--preto1);
+  background-color: var(--branco1);
 }
 
 .contato .formulario-contato form input::placeholder {
   font-size: 16px;
-  color: #c2c2c2;
+  color: var(--cinza3);
 }
-.contato .formulario-contato button{
-  width: 444px;
+
+.contato .formulario-contato button {
+  width: 100%;
   height: 56px;
-  background-color: #585858;
-  color: #fff;
+  background-color: var(--cinza2);
+  color: var(--branco1);
   border: none;
   border-radius: 8px;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.contato .formulario-contato button:hover {
+  background-color: var(--cinza1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px var(--cinza4);
+}
+
+.contato .formulario-contato button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px var(--cinza3);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+  .contato {
+    gap: 80px;
+  }
+
+  .contato .contato-informacoes h2 {
+    font-size: 40px;
+  }
+
+  .contato .contato-informacoes p {
+    font-size: 18px;
+  }
+
+  .contato .contato-informacoes img {
+    width: 300px;
+  }
+
+  .contato .formulario-contato {
+    width: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contato {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 64px 24px;
+  }
+
+  .contato .contato-informacoes {
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .contato .contato-informacoes p {
+    font-size: 16px;
+    max-width: 410px;
+  }
+
+  .contato .contato-informacoes img {
+    width: 260px;
+  }
+
+  .contato .formulario-contato {
+    width: 420px;
+  }
+
+  .contato .formulario-contato p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .contato {
+    gap: 40px;
+    padding: 48px 20px;
+  }
+
+  .contato .contato-informacoes h2 {
+    font-size: 32px;
+  }
+
+  .contato .contato-informacoes p {
+    font-size: 16px;
+    max-width: 360px;
+  }
+
+  .contato .contato-informacoes img {
+    width: 220px;
+  }
+
+  .contato .formulario-contato {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .contato .formulario-contato p {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .contato .formulario-contato form {
+    gap: 20px;
+  }
+
+  .contato .formulario-contato form input {
+    height: 48px;
+    font-size: 15px;
+  }
+
+  .contato .formulario-contato form input::placeholder {
+    font-size: 15px;
+  }
+
+  .contato .formulario-contato button {
+    height: 52px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato {
+    padding: 40px 16px;
+  }
+
+  .contato .contato-informacoes h2 {
+    font-size: 28px;
+  }
+
+  .contato .contato-informacoes p {
+    max-width: 300px;
+  }
+
+  .contato .contato-informacoes img {
+    width: 180px;
+  }
+
+  .contato .formulario-contato {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .contato {
+    padding: 32px 14px;
+  }
+
+  .contato .contato-informacoes h2 {
+    font-size: 26px;
+  }
+
+  .contato .formulario-contato form {
+    gap: 16px;
+  }
+
+  .contato .formulario-contato form input {
+    height: 44px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+
+  .contato .formulario-contato form input::placeholder {
+    font-size: 14px;
+  }
+
+  .contato .formulario-contato button {
+    height: 48px;
+    font-size: 14px;
+  }
 }
