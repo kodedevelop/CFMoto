@@ -21,6 +21,7 @@
 }
 
 .contato .contato-informacoes p {
+  max-width: 510px;
   font-weight: 400;
   font-size: 20px;
   color: var(--cinza2);
@@ -54,7 +55,7 @@
   height: 52px;
   border: 1px solid var(--cinza1);
   border-radius: 8px;
-  padding: 0 16px;
+  padding: 16px;
   font-size: 16px;
   color: var(--preto1);
   background-color: var(--branco1);
@@ -63,6 +64,10 @@
 .contato .formulario-contato form input::placeholder {
   font-size: 16px;
   color: var(--cinza3);
+}
+
+.contato .formulario-contato form input:hover, form input:focus{
+  border: 2px solid var(--cinza1);
 }
 
 .contato .formulario-contato button {
