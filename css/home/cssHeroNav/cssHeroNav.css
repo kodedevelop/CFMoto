@@ -1,0 +1,102 @@
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header img {
+  width: clamp(100px, 12vw, 150px);
+}
+.banner {
+  min-height: calc(100vh - 80px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  box-sizing: border-box;
+}
+.content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.background-text {
+  position: absolute;
+  top: -20px; 
+  left: 50%;
+  transform: translate(-50%, -62%); 
+  font-size: clamp(36px, 14vw, 140px); 
+  color: rgba(0, 0, 0, 0.05);
+  z-index: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.vehicles {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.vehicles img {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+  object-fit: contain;
+}
+
+.description {
+  color: #555;
+  font-size: clamp(12px, 1.5vw, 14px);
+  margin: clamp(12px, 2vw, 20px) 0;
+  padding: 0 16px;
+}
+
+.btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: clamp(10px, 1.5vw, 12px) clamp(20px, 3vw, 30px);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: clamp(11px, 1.2vw, 12px);
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+@media (max-width: 768px) {
+  .banner {
+    height: auto;
+    min-height: 100svh;
+    padding: 20px 16px;
+  }
+
+  .background-text {
+    transform: translate(-50%, -55%);
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 14px 0;
+  }
+
+  .banner {
+    padding: 16px 12px;
+  }
+
+  .background-text {
+    transform: translate(-50%, -52%);
+    letter-spacing: -1px;
+  }
+
+  .description {
+    padding: 0 8px;
+  }
+}
