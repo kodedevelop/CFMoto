@@ -72,11 +72,12 @@
 }
 @media (max-width: 768px) {
   .banner {
+    min-height: auto; 
     height: auto;
-    min-height: 100svh;
-    padding: 20px 16px;
-  }
-
+    padding: 20px 16px 40px; 
+    align-items: flex-start;
+    margin-top: 64px; 
+}
   .background-text {
     transform: translate(-50%, -55%);
   }
