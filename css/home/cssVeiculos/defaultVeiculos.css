@@ -84,7 +84,7 @@ article.veiculo p{
     color: var(--amarelo-claro1);
 }
 
-article.veiculo button{
+article.veiculo button.btn-bordaPreta{
     cursor: pointer;
     border-radius: 4px;
     border: 2px solid var(--preto1);
@@ -97,12 +97,12 @@ article.veiculo button{
     transition: all .3s;
 }
 
-article.veiculo button:hover{
+article.veiculo button.btn-bordaPreta:hover{
     color: var(--branco1);
     background-color: var(--preto1);
 }
 
-article.veiculo button:active{
+article.veiculo button.btn-bordaPreta:active{
     scale: .8;
 }
 
@@ -114,7 +114,7 @@ div#modalFundoEscuro{
     left: 0;
     width: 100%;
     height: 100%;
-    /* display: none; */
+    display: none;
     background: rgba(0,0,0,0.5);
 }
 

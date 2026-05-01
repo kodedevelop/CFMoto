@@ -93,7 +93,7 @@
         font-size: 28px;
     }
 
-    article.veiculo button{
+    article.veiculo button.btn-bordaPreta{
         margin: 0 auto;
         width: 70%;
         font-size: 12px;
