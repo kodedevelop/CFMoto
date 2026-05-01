@@ -31,18 +31,18 @@
 
 /* Telas com 450px - 754px*/
 @media screen and (min-width: 515px) and (max-width: 525px){
-    section.sectionVeiculos h1{
+    h1.sectionVeiculosTitulo{
         font-size: 28px;
     }
 
     /* Container com os veículos */
-    div.veiculosContent h2{
+    h2.sectionVeiculosSubTitulo{
         margin-left: 42px;
         margin-bottom: 16px;
         font-size: 16px;
     }
 
-    div.veiculosContent h2::before{
+    h2.sectionVeiculosSubTitulo::before{
         left: -42px;
         top: 55%;
         width: 30px;
@@ -63,18 +63,18 @@
 
 /* Telas com 450px - 449px*/
 @media screen  and (max-width: 514px){
-    section.sectionVeiculos h1{
+    h1.sectionVeiculosTitulo{
         font-size: 24px;
     }
 
     /* Container com os veículos */
-    div.veiculosContent h2{
+    h2.sectionVeiculosSubTitulo{
         margin-left: 42px;
         margin-bottom: 16px;
         font-size: 16px;
     }
 
-    div.veiculosContent h2::before{
+    h2.sectionVeiculosSubTitulo::before{
         left: -42px;
         top: 55%;
         width: 30px;

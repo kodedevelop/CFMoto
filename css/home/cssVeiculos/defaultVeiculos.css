@@ -6,7 +6,7 @@ section.sectionVeiculos{
     gap: 52px;
 }
 
-section.sectionVeiculos h1{
+section.sectionVeiculos h1.sectionVeiculosTitulo{
     margin: 0 auto;
     max-width: 720px;
     text-align: center;
@@ -24,7 +24,11 @@ div.veiculosContainer{
     gap: 92px;
 }
 
-div.veiculosContent h2{
+div.veiculosContent{
+    position: relative;
+}
+
+h2.sectionVeiculosSubTitulo{
     position: relative;
     margin-left: 62px;
     margin-bottom: 16px;
@@ -33,7 +37,7 @@ div.veiculosContent h2{
     text-transform: uppercase;
 }
 
-div.veiculosContent h2::before{
+h2.sectionVeiculosSubTitulo::before{
     position: absolute;
     content: "";
     left: -62px;
@@ -61,11 +65,11 @@ article.veiculo{
     text-align: center;
 }
 
-article.veiculo img{
+article.veiculo img.veiculoImg{
     transition: scale .3s;
 }
 
-article.veiculo img:hover{
+article.veiculo img.veiculoImg:hover{
     scale: 1.2;
 }
 
@@ -100,4 +104,119 @@ article.veiculo button:hover{
 
 article.veiculo button:active{
     scale: .8;
+}
+
+/* Modal */
+div#modalFundoEscuro{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+    background: rgba(0,0,0,0.5);
+}
+
+div.veiculosModal{
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    padding: 12px;
+    border: 2px solid var(--preto1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: var(--branco1);
+}
+
+i.modalIconFechar{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--branco1);
+    background-color: var(--vermelho1);
+    transition: scale .3s;
+}
+
+i.modalIconFechar:hover{
+    scale: 1.1;
+}
+
+h1.modalTitulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img.modalImg{
+    margin: 0 auto;
+    width: 50%;
+    transition: scale .3s;
+}
+
+img.modalImg:hover{
+    scale: 1.1;
+}
+
+h2.modalSubTitulo{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.modalParagrafo, li.modalListaItem{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p.modalParagrafo{
+    text-align: justify;
+}
+
+ul.modalLista{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+i.bi-check-square{
+    margin-right: 4px;
+    font-size: 16px;
+    color: var(--azul-ciano1);  
+}
+
+button.btn-bordaAzulCiano{
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid var(--azul-ciano1);
+    border-radius: 4px;
+    padding: 8px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--azul-ciano1);
+    background-color: transparent;
+    transition: all .3s;
+}
+
+button.btn-bordaAzulCiano:hover{
+    color: var(--branco1);
+    background-color: var(--azul-ciano1);
+}
+
+button.btn-bordaAzulCiano:active{
+    scale: 0.8;
 }
