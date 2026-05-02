@@ -259,7 +259,7 @@ export function initVeiculosModal(){
 
 
     // Envia mensagem para o whatsapp com o modelo respectivo
-    const telefone = '558183335505';  // NÚMERO PROVISÓRIO !!!
+    const telefone = '5581994253143';
 
     // Função para enviar mensagem
     function gerarLinkWhatsApp(nomeVeiculo) {
