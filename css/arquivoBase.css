@@ -29,11 +29,11 @@ body{
 }
 
 main{
-  padding: 60px;
+  padding: 0 60px 60px 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 160px;
+  gap: 120px;
 }
 
 img.whatsappFlutuante{

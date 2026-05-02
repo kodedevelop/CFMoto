@@ -23,31 +23,24 @@
         <img src="assets/icons/logo-cfmoto.svg" alt="Logo da CFMOTO">
     </header>
 
-    <section class="banner">
-        <div class="content">
-
-        <h1 class="background-text">CFMOTO</h1>
-
-        <div class="vehicles">
-            <img src="assets/icons/imagem2026.png" alt="Veículos CFMOTO">
-        </div>
-
-        <div class="infos">
-            <p class="description">
-            Encontre o modelo ideal para sua próxima aventura.
-            </p>
-        
-            <a href="#ctt">
-            <button class="btn">
-                ENTRAR EM CONTATO
-            </button>
-            </a>
-        </div>
-
-        </div>
-    </section>
-
     <main>
+        <!-- Section - Hero -->
+        <section class="banner">
+          <div class="content">
+            <h1 class="background-text">CFMOTO</h1>
+
+            <div class="vehicles">
+              <img src="assets/icons/imagem2026.png" alt="Veículos CFMOTO">
+            </div>
+
+            <div class="infos">
+              <p class="description">Encontre o modelo ideal para sua próxima aventura.</p>
+          
+              <a href="#ctt"><button class="btn">ENTRAR EM CONTATO</button></a>
+            </div>
+          </div>
+        </section>
+
         <!-- Section - Veículos  -->
         <section class="sectionVeiculos">
             <!-- Título da section -->
@@ -236,59 +229,60 @@
               </div>
             </div>
         </section>
+
+        <!-- Fundo escurece e aparece o modal -->
+        <div id="modalFundoEscuro">
+            <!-- Modal -->
+            <div class="veiculosModal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+                <!-- Fechar Modal -->
+                <i class="modalIconFechar bi bi-x-lg"></i>
+
+                <!-- Nome do modelo -->
+                <h1 class="modalTitulo">NOME DO MODELO</h1>
+
+                <!-- Imagem do modelo -->
+                <img src="#" class="modalImg" alt="Modelo do veículo">
+
+                <!-- Características do modelo -->
+                <div class="modalInformacoes">
+                    <h2 class="modalSubTitulo">Características do modelo:</h2>
+                    <p class="modalParagrafo">DESCRIÇÃO DO MODELO</p>
+                </div>
+
+                <!-- Destaques do modelo -->
+                <div class="modalInformacoes">
+                    <h2 class="modalSubTitulo">Destaques do modelo:</h2>
+                    <ul class="modalLista">
+                        <li class="modalListaItem"><i class="bi bi-check-square"></i>Destaque 1</li>
+                        <li class="modalListaItem"><i class="bi bi-check-square"></i>Destaque 2</li>
+                        <li class="modalListaItem"><i class="bi bi-check-square"></i>Destaque 3</li>
+                    </ul>
+                </div>
+
+                <!-- Botão para o whatsapp -->
+                <button class="btn-bordaAzulCiano">fiquei interessado !!</button>
+            </div>
+        </div>
+
+        <!-- Section - Contato -->
+        <section class="contato" id="ctt">
+          <div class="contato-informacoes">
+            <h2>FALE CONOSCO</h2>
+            <p>Entre em contato e agende sua visita para conhecer nossos modelos.</p>
+            <img src="assets/icons/cfmotos-logo.png" alt="Logo-Cfmoto">
+          </div>
+          <div class="formulario-contato">
+            <p>Preencha o formulário e entre em contato para conhecer nossos modelos de perto.</p>
+            <form action="">
+              <input type="text" name="nome" id="nome" maxlength="40" placeholder="Nome" required>
+              <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+              <input type="email" name="email" id="email" placeholder="E-mail" required>
+              <button>ENTRAR EM CONTATO</button>
+            </form>
+          </div>
+        </section>
     </main>
 
-    <!-- Fundo escurece e aparece o modal -->
-    <div id="modalFundoEscuro">
-        <!-- Modal -->
-        <div class="veiculosModal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-            <!-- Fechar Modal -->
-            <i class="modalIconFechar bi bi-x-lg"></i>
-
-            <!-- Nome do modelo -->
-            <h1 class="modalTitulo">NOME DO MODELO</h1>
-
-            <!-- Imagem do modelo -->
-            <img src="#" class="modalImg" alt="Modelo do veículo">
-
-            <!-- Características do modelo -->
-            <div class="modalInformacoes">
-                <h2 class="modalSubTitulo">Características do modelo:</h2>
-                <p class="modalParagrafo">DESCRIÇÃO DO MODELO</p>
-            </div>
-
-            <!-- Destaques do modelo -->
-            <div class="modalInformacoes">
-                <h2 class="modalSubTitulo">Destaques do modelo:</h2>
-                <ul class="modalLista">
-                    <li class="modalListaItem"><i class="bi bi-check-square"></i>Destaque 1</li>
-                    <li class="modalListaItem"><i class="bi bi-check-square"></i>Destaque 2</li>
-                    <li class="modalListaItem"><i class="bi bi-check-square"></i>Destaque 3</li>
-                </ul>
-            </div>
-
-            <!-- Botão para o whatsapp -->
-            <button class="btn-bordaAzulCiano">fiquei interessado !!</button>
-        </div>
-    </div>
-
-    <section class="contato" id="ctt">
-    <div class="contato-informacoes">
-      <h2>FALE CONOSCO</h2>
-      <p>Entre em contato e agende sua visita para conhecer nossos modelos.</p>
-      <img src="assets/icons/cfmotos-logo.png" alt="Logo-Cfmoto">
-    </div>
-    <div class="formulario-contato">
-      <p>Preencha o formulário e entre em contato para conhecer nossos modelos de perto.</p>
-      <form action="">
-        <input type="text" name="nome" id="nome" maxlength="40" placeholder="Nome" required>
-        <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
-        <input type="email" name="email" id="email" placeholder="E-mail" required>
-        <button>ENTRAR EM CONTATO</button>
-      </form>
-    </div>
-  </section>
-    
     <footer class="footer">
     <img src="assets/icons/whatsapp.png" class="whatsappFlutuante" alt="Fale conosco pelo WhatsApp">
 
