@@ -51,19 +51,20 @@ body {
   gap: 10px;
 }
 
-.contact-row {
+.contact-row a.info-link{
+  cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-size: 15px;
-  color: #222;
+  color: var(--preto1);
+  transition: color .3s;
 }
 
-.contact-row svg {
-  width: 22px;
-  height: 22px;
-  flex-shrink: 0;
+.contact-row a.info-link:hover{
+  color: var(--azul-ciano1);
 }
+
 
 /* ── Barra inferior ── */
 .bottom-bar {
