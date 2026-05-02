@@ -68,13 +68,13 @@
 }
 
 .contato .formulario-contato form input:hover, .contato .formulario-contato form input:focus{
-  border: 2px solid var(--amarelo-claro1);
+  border: 2px solid #009BB4;
 }
 
 .contato .formulario-contato button {
   width: 100%;
   height: 56px;
-  background-color: var(--cinza2);
+  background-color: var(--preto1);
   color: var(--branco1);
   border: none;
   border-radius: 8px;
@@ -86,7 +86,6 @@
 
 .contato .formulario-contato button:hover {
   background-color: var(--cinza1);
-  transform: translateY(-2px);
   box-shadow: 0 6px 18px var(--cinza4);
 }
 

@@ -81,7 +81,7 @@ article.veiculo h3{
 article.veiculo p{
     font-size: 32px;
     font-weight: bold;
-    color: var(--amarelo-claro1);
+    color: var(--preto1);
 }
 
 article.veiculo button.btn-bordaPreta{
