@@ -1,7 +1,7 @@
 /* Telas com 905px - 1080px*/
 @media screen and (min-width: 950px) and (max-width: 1095px){
     div.veiculos{
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     /* Card dos veículos */
@@ -12,15 +12,26 @@
 
 /* Telas com 755px - 954px*/
 @media screen and (min-width: 755px) and (max-width: 954px){
-    div.veiculos{
-        justify-content: space-around;
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
+        font-size: 32px;
     }
+
+    div.veiculos{
+        justify-content: space-between;
+    }
+
 }
 
-/* Telas com 595px - 754px*/
+/* Telas com 525px - 754px*/
 @media screen and (min-width: 525px) and (max-width: 754px){
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
+        font-size: 28px;
+    }
+
     div.veiculos{
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     /* Card dos veículos */
@@ -29,9 +40,10 @@
     }
 }
 
-/* Telas com 450px - 754px*/
+/* Telas com 515px - 525px*/
 @media screen and (min-width: 515px) and (max-width: 525px){
-    h1.sectionVeiculosTitulo{
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
         font-size: 28px;
     }
 
@@ -51,19 +63,16 @@
         background-color: var(--preto1);
     }
 
-    div.veiculos{
-        justify-content: space-around;
-    }
-
     /* Card dos veículos */
     article.veiculo{
         width: 220px;
     }
 }
 
-/* Telas com 450px - 449px*/
-@media screen  and (max-width: 514px){
-    h1.sectionVeiculosTitulo{
+/* Telas com ...px - 515px*/
+@media screen  and (max-width: 515px){
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
         font-size: 24px;
     }
 
@@ -87,6 +96,12 @@
     article.veiculo{
         width: 100%;
         gap: 8px;
+    }
+
+    article.veiculo img.veiculoImg{
+        margin: 0 auto;
+        width: 80%;
+        transition: scale .3s;
     }
 
     article.veiculo p{
