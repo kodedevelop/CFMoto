@@ -36,6 +36,24 @@ main{
   gap: 160px;
 }
 
+img.whatsappFlutuante{
+    cursor: pointer;
+    width: 80px;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    z-index: 15;
+    animation: whatsappFlutuante 2s infinite;
+}
+
+@keyframes whatsappFlutuante{
+    0%  {scale: 1;}
+    50% {scale: 1.1;}
+    100%{scale: 1;}
+}
+
+
+
 /* Variáveis */
 :root{
   /* - Tipografia */
@@ -61,6 +79,14 @@ main{
     padding: 40px;
     gap: 120px;
   }
+}
+
+@media screen and (max-width: 450px){
+    img.whatsappFlutuante{
+        width: 60px;
+        bottom: 30px;
+        right: 30px;
+    }
 }
 
 /* Telas com ...px - 494px*/
