@@ -1,6 +1,10 @@
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  gap: 32px;
   padding: 20px 0;
 }
 
