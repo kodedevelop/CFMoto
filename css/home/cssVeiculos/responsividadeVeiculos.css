@@ -21,6 +21,10 @@
         justify-content: space-between;
     }
 
+    /* Modal */
+    button.btn-bordaAzulCiano{
+        font-size: 16px;
+    }
 }
 
 /* Telas com 525px - 754px*/
@@ -37,6 +41,46 @@
     /* Card dos veículos */
     article.veiculo{
         width: 220px;
+    }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 90%;
+        padding: 12px;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
+        font-size: 12px;
     }
 }
 
@@ -66,6 +110,46 @@
     /* Card dos veículos */
     article.veiculo{
         width: 220px;
+    }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 90%;
+        padding: 12px;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
+        font-size: 12px;
     }
 }
 
@@ -111,6 +195,46 @@
     article.veiculo button.btn-bordaPreta{
         margin: 0 auto;
         width: 70%;
+        font-size: 12px;
+    }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 90%;
+        padding: 12px;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
         font-size: 12px;
     }
 }

@@ -17,7 +17,7 @@ export function initVeiculosModal(){
         {
             id: 1,
             modalNome: 'CFORCE 100 LV',
-            modalImg: 'assets/img/modelos-youth/CFORCE-100LV.webp',
+            modalImg: 'assets/img/modelos-youth/modal-CFORCE-100LV.png',
             modalImgTextoAlt: 'Modelo Cforce 100LV',
             modalCaracteristica: 'Sendo a versão de entrada do CFORCE 110, ele possui um tamanho perfeito para crianças a partir de 10 anos e é ideal para quem está em busca de um mini-quadriciclo com ótimo custo-benefício. Enfrenta qualquer terreno, ajudando jovens pilotos a ganharem confiança.',
             destaques: [
@@ -29,7 +29,7 @@ export function initVeiculosModal(){
         {
             id: 2,
             modalNome: 'CFORCE 100',
-            modalImg: 'assets/img/modelos-youth/CFORCE-100.webp',
+            modalImg: 'assets/img/modelos-youth/modal-CFORCE-100.png',
             modalImgTextoAlt: 'Modelo CFORCE 100',
             modalCaracteristica: 'Quadriciclo ideal para jovens pilotos. Com motor de 110cc, suspensão independente e freios a disco, oferece pilotagem ágil e controlada. Recursos como limitador de velocidade e faróis de LED garantem mais segurança.',
             destaques: [
@@ -41,7 +41,7 @@ export function initVeiculosModal(){
         {
             id: 3,
             modalNome: 'CFORCE EV110',
-            modalImg: 'assets/img/modelos-youth/CFORCE-EV110.webp',
+            modalImg: 'assets/img/modelos-youth/modal-CFORCE-EV110.png',
             modalImgTextoAlt: 'Modelo CFOCE EV110',
             modalCaracteristica: 'Quadriciclo 100% elétrico, com até 60 km de autonomia, resistência à água e poeira (IP67) e modos “Sport” e “Eco”, garante uma experiência off-road empolgante. O App CFMOTO RIDE permite monitoramento em tempo real.',
             destaques: [
@@ -65,7 +65,7 @@ export function initVeiculosModal(){
         {
             id: 5,
             modalNome: 'MINI-MOTO CX-2E',
-            modalImg: 'assets/img/modelos-youth/MINI-MOTO-CX-2E.webp',
+            modalImg: 'assets/img/modelos-youth/modal-MINI-MOTO-CX-2E.png',
             modalImgTextoAlt: 'Modelo MINI-MOTO CX-2E',
             modalCaracteristica: 'Mini moto elétrica para pilotos de 4 a 7 anos. Com design moderno e três modos de potência, atinge até 36 km/h e recarrega em 5h, é equipada com bateria de 48V, amortecedor ajustável, freios a disco e painel com indicadores, é a introdução ideal ao mundo das duas rodas.',
             destaques: [
@@ -79,7 +79,7 @@ export function initVeiculosModal(){
             modalNome: 'CFORCE 450L EPS',
             modalImg: 'assets/img/modelos-cforce/CFORCE-450L.webp',
             modalImgTextoAlt: 'Modelo CFORCE 450L EPS',
-            modalCaracteristica: 'Máquina de médio porte acessível, robusta e fácil de pilotar. Tem estrutura de aço de alta resistência, motor SOHC monocilíndrico, refrigeração líquida e transmissão CVT. Ideal para iniciantes no off-road, oferece suspensão independente, tração 4×2/4×4 com bloqueio, assento duplo 40% maior, guincho e protetores de mão, garantindo conforto, segurança e desempenho.',
+            modalCaracteristica: 'Máquina de médio porte acessível com estrutura de aço de alta resistência, motor SOHC monocilíndrico, refrigeração líquida e transmissão CVT. Ideal para iniciantes no off-road, oferece suspensão independente, tração 4×2/4×4 com bloqueio, assento duplo 40% maior, guincho e protetores de mão.',
             destaques: [
                 'Suspensão independente',
                 '31 cavalos de potência',
@@ -91,7 +91,7 @@ export function initVeiculosModal(){
             modalNome: 'CFORCE 520L EPS',
             modalImg: 'assets/img/modelos-cforce/CFORCE-520L.webp',
             modalImgTextoAlt: 'Modelo CFORCE 520L EPS',
-            modalCaracteristica: 'O motor de 495cc do CFORCE 520L oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25", supera qualquer desafio. Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
+            modalCaracteristica: 'O motor de 495cc do CFORCE 520L oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25". Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
             destaques: [
                 'Rodas de liga leve',
                 'Produzido no Brasil',
@@ -125,7 +125,7 @@ export function initVeiculosModal(){
         {
             id: 10,
             modalNome: 'U10 PRO HIGHLAND',
-            modalImg: 'assets/img/modelos-uforce/U10-PRO-HIGHLAND.webp',
+            modalImg: 'assets/img/modelos-uforce/modal-U10-PRO-HIGHLAND.png',
             modalImgTextoAlt: 'Modelo U10 PRO HIGHLAND',
             modalCaracteristica: 'Redefine o conceito de UTV, oferecendo potência, capacidade e tecnologia de ponta. Com um interior mais silencioso, design elevado e recursos completos, incluindo ar-condicionado. Entrega desempenho excepcional tanto para trabalho quanto para lazer.',
             destaques: [
@@ -137,9 +137,9 @@ export function initVeiculosModal(){
         {
             id: 11,
             modalNome: 'U10 XL PRO',
-            modalImg: 'assets/img/modelos-uforce/U10-XL-PRO.webp',
+            modalImg: 'assets/img/modelos-uforce/modal-U10-XL-PRO.png',
             modalImgTextoAlt: 'Modelo U10 XL PRO',
-            modalCaracteristica: 'O UFORCE U10 XL PRO é a versão ampliada do UFORCE U10 PRO, com espaço para até 6 pessoas. Ideal para trabalho ou aventuras, seu motor de 998cc e transmissão CVT OmniDrive garantem potência, suavidade e controle em qualquer terreno. Combinando conforto e robustez, é perfeito para transportar família ou equipe com desempenho e versatilidade.',
+            modalCaracteristica: 'Essa versão é a versão ampliada do UFORCE U10 PRO, com espaço para até 6 pessoas. Ideal para trabalho ou aventuras, seu motor de 998cc e transmissão CVT OmniDrive garantem potência, suavidade e controle em qualquer terreno e é perfeito para transportar família ou equipe com desempenho e versatilidade.',
             destaques: [
                 'Caçamba para 454 kg',
                 'Direção elétrica (EPS)',
@@ -149,7 +149,7 @@ export function initVeiculosModal(){
         {
             id: 12,
             modalNome: 'U10 PRO',
-            modalImg: 'assets/img/modelos-uforce/U10-PRO.webp',
+            modalImg: 'assets/img/modelos-uforce/modal-U10-PRO.png',
             modalImgTextoAlt: 'Modelo U10 PRO',
             modalCaracteristica: 'Entrega potência e desempenho com motor de 998cc e 90HP, com uma suspensão de alto desempenho, pneus de 29”, caçamba elétrica de 454 kg e reboque de 1.134 kg, garante estabilidade e eficiência. Possui uma tela MMI de 8” com Apple CarPlay e áudio integrado.',
             destaques: [
@@ -161,7 +161,7 @@ export function initVeiculosModal(){
         {
             id: 13,
             modalNome: 'SHARK 125 AUTOMATIC',
-            modalImg: 'assets/img/modelos-funMotors/SHARK-125.png',
+            modalImg: 'assets/img/modelos-funMotors/modal-SHARK-125.png',
             modalImgTextoAlt: 'SHARK 125 AUTOMATIC',
             modalCaracteristica: 'Mini-quadriciclo ideal para jovens a partir de 12 anos, ele combina emoção e segurança em cada trilha. Equipado com motor monocilíndrico, 4 tempos de 8,5CC, refrigerado a ar e câmbio totalmente automático. Além disso, conta com partida elétrica, rack dianteiro e traseiro, freio a disco e limitador de velocidade.',
             destaques: [
@@ -173,7 +173,7 @@ export function initVeiculosModal(){
         {
             id: 14,
             modalNome: 'DAKAR 300',
-            modalImg: 'assets/img/modelos-funMotors/DARK-300.png',
+            modalImg: 'assets/img/modelos-funMotors/modal-DARK-300.png',
             modalImgTextoAlt: 'DAKAR 300',
             modalCaracteristica: 'O Dakar 300 entrega mais força e durabilidade, equipado com eixo cardan para máxima confiabilidade. Um quadriciclo robusto, estável e pronto para o trabalho pesado em qualquer tipo de terreno.',
             destaques: [
@@ -185,9 +185,9 @@ export function initVeiculosModal(){
         {
             id: 15,
             modalNome: 'Farm 200',
-            modalImg: 'assets/img/modelos-funMotors/FARM-200.png',
+            modalImg: 'assets/img/modelos-funMotors/modal-FARM-200.png',
             modalImgTextoAlt: 'Farm 200',
-            modalCaracteristica: 'Perfeito para desbravar novos horizontes ou para tarefas em propriedades rurais. Possui um painel de LCD com diversas funções, que monitora o consumo de combustível, câmbio automático CVT, freios a disco, faróis com acabamento em LED e um encosto para que tenha mais conforto. Um novo farol traseiro que confere um toque de modernidade autêntica a esse quadriciclo. É a escolha perfeita para uma nova experiência de aventura e trabalho.',
+            modalCaracteristica: 'Possui um painel de LCD com diversas funções, câmbio automático CVT, freios a disco, faróis com acabamento em LED e um encosto para que tenha mais conforto. Um novo farol traseiro que confere um toque de modernidade autêntica a esse quadriciclo.',
             destaques: [
                 'Painel LCD',
                 'Encosto',
