@@ -1,7 +1,7 @@
 /* Telas com 905px - 1080px*/
 @media screen and (min-width: 950px) and (max-width: 1095px){
     div.veiculos{
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     /* Card dos veículos */
@@ -12,26 +12,82 @@
 
 /* Telas com 755px - 954px*/
 @media screen and (min-width: 755px) and (max-width: 954px){
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
+        font-size: 32px;
+    }
+
     div.veiculos{
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+
+    /* Modal */
+    button.btn-bordaAzulCiano{
+        font-size: 16px;
     }
 }
 
-/* Telas com 595px - 754px*/
+/* Telas com 525px - 754px*/
 @media screen and (min-width: 525px) and (max-width: 754px){
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
+        font-size: 28px;
+    }
+
     div.veiculos{
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     /* Card dos veículos */
     article.veiculo{
         width: 220px;
     }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 90%;
+        padding: 12px;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
+        font-size: 12px;
+    }
 }
 
-/* Telas com 450px - 754px*/
+/* Telas com 515px - 525px*/
 @media screen and (min-width: 515px) and (max-width: 525px){
-    h1.sectionVeiculosTitulo{
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
         font-size: 28px;
     }
 
@@ -51,19 +107,56 @@
         background-color: var(--preto1);
     }
 
-    div.veiculos{
-        justify-content: space-around;
-    }
-
     /* Card dos veículos */
     article.veiculo{
         width: 220px;
     }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 90%;
+        padding: 12px;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
+        font-size: 12px;
+    }
 }
 
-/* Telas com 450px - 449px*/
-@media screen  and (max-width: 514px){
-    h1.sectionVeiculosTitulo{
+/* Telas com ...px - 515px*/
+@media screen  and (max-width: 515px){
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
         font-size: 24px;
     }
 
@@ -89,6 +182,12 @@
         gap: 8px;
     }
 
+    article.veiculo img.veiculoImg{
+        margin: 0 auto;
+        width: 80%;
+        transition: scale .3s;
+    }
+
     article.veiculo p{
         font-size: 28px;
     }
@@ -96,6 +195,46 @@
     article.veiculo button.btn-bordaPreta{
         margin: 0 auto;
         width: 70%;
+        font-size: 12px;
+    }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 90%;
+        padding: 12px;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
         font-size: 12px;
     }
 }
