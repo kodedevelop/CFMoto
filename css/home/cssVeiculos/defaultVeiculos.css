@@ -126,7 +126,6 @@ div.veiculosModal{
     transform: translate(-50%, -50%);
     width: 700px;
     padding: 12px;
-    border: 2px solid var(--preto1);
     border-radius: 16px;
     display: flex;
     flex-direction: column;

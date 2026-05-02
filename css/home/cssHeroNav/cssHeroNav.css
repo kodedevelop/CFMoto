@@ -16,40 +16,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 16px;
   box-sizing: border-box;
 }
 .content {
   text-align: center;
   position: relative;
   width: 100%;
-  max-width: 1100px;
+  max-width: none;
 }
 
 .background-text {
   position: absolute;
-  top: -20px; 
+  top: 130px; 
   left: 50%;
   transform: translate(-50%, -62%); 
-  font-size: clamp(36px, 14vw, 140px); 
+  font-size: clamp(90px, 14vw, 240px); 
   color: rgba(0, 0, 0, 0.05);
-  z-index: 0;
+  z-index: 2;
   pointer-events: none;
   white-space: nowrap;
 }
 
 .vehicles {
+  width: 100%;
+  height: clamp(410px, 40vw, 600px); 
   position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
 }
 
 .vehicles img {
   width: 100%;
-  max-width: 1500px;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover; 
 }
 
 .description {
@@ -78,7 +75,7 @@
   .banner {
     min-height: auto; 
     height: auto;
-    padding: 20px 16px 40px; 
+    /* padding: 20px 16px 40px;  */
     align-items: flex-start;
     margin-top: 64px; 
 }
@@ -93,7 +90,7 @@
   }
 
   .banner {
-    padding: 16px 12px;
+    /* padding: 16px 12px; */
   }
 
   .background-text {
