@@ -22,6 +22,10 @@
     }
 
     /* Modal */
+    div.veiculosModal{
+        width: 75%;
+    }
+
     button.btn-bordaAzulCiano{
         font-size: 16px;
     }
@@ -45,8 +49,7 @@
 
     /* Modal */
     div.veiculosModal{
-        width: 90%;
-        padding: 12px;
+        width: 75%;
     }
 
     h1.modalTitulo{
@@ -114,8 +117,7 @@
 
     /* Modal */
     div.veiculosModal{
-        width: 90%;
-        padding: 12px;
+        width: 75%;
     }
 
     h1.modalTitulo{
@@ -200,8 +202,7 @@
 
     /* Modal */
     div.veiculosModal{
-        width: 90%;
-        padding: 12px;
+        width: 75%;
     }
 
     h1.modalTitulo{
