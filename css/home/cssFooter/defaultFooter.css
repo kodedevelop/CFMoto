@@ -52,6 +52,7 @@ body {
 }
 
 .contact-row a.info-link{
+  width: fit-content;
   cursor: pointer;
   display: flex;
   align-items: center;
