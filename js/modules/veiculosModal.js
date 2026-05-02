@@ -9,7 +9,9 @@ export function initVeiculosModal(){
     const modalParagrafo  = document.querySelector('.modalParagrafo');
     const modalListaItens = document.querySelectorAll('.modalListaItem');
     
-    
+    const modalButtonWhatsApp = document.querySelector('.btn-bordaAzulCiano');
+    let veiculoAtual = null;
+
     // Dados dos veículos
     const veiculos = [
         {
@@ -206,14 +208,14 @@ export function initVeiculosModal(){
         }
     ];
 
-    
+
     // Preenche o modal com as informações do veículos
     function preencherModal(veiculo) {
+        veiculoAtual = veiculo; // salva o veículo atual
+        
         modalTitulo.textContent = veiculo.modalNome;
-    
         modalImg.src = veiculo.modalImg;
         modalImg.alt = veiculo.modalImgTextoAlt;
-    
         modalParagrafo.textContent = veiculo.modalCaracteristica;
     
         modalListaItens.forEach((item, index) => {
@@ -253,5 +255,26 @@ export function initVeiculosModal(){
         if (e.target === fundoEscuroModal) {
             fecharModal();
         }
+    });
+
+
+    // Envia mensagem para o whatsapp com o modelo respectivo
+    const telefone = '558183335505';  // NÚMERO PROVISÓRIO !!!
+
+    // Função para enviar mensagem
+    function gerarLinkWhatsApp(nomeVeiculo) {
+        const mensagem = `Olá! Vim pelo site e fiquei interessado pelo modelo: *${nomeVeiculo}*.`;
+
+        const mensagemCodificada = encodeURIComponent(mensagem);
+
+        return `https://wa.me/${telefone}?text=${mensagemCodificada}`;
+    }
+
+    modalButtonWhatsApp.addEventListener('click', () => {
+        if (!veiculoAtual) return;
+
+        const link = gerarLinkWhatsApp(veiculoAtual.modalNome);
+
+        window.open(link, '_blank');
     });
 }
