@@ -1,9 +1,11 @@
 @import url('arquivoBase.css');
 
 /* CSS - Home */
+@import url(home/cssNav/header.css);
+@import url(home/cssNav/headerResponsivo.css);
+@import url(home/cssHero/hero.css);
 @import url(home/cssVeiculos/defaultVeiculos.css);
 @import url(home/cssVeiculos/responsividadeVeiculos.css);
+@import url(home/CssSectionContato/defaultSectionContato.css);
 @import url(home/cssFooter/defaultFooter.css);
 @import url(home/cssFooter/responsividadeFooter.css);
-@import url(home/cssHeroNav/cssHeroNav.css);
-@import url(home/CssSectionContato/defaultSectionContato.css)
