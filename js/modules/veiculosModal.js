@@ -55,7 +55,7 @@ export function initVeiculosModal(){
             modalNome: 'CFORCE 450L EPS',
             modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-450L.png',
             modalImgTextoAlt: 'Modelo CFORCE 450L EPS',
-            modalCaracteristica: 'Máquina de médio porte acessível com estrutura de aço de alta resistência, motor SOHC monocilíndrico, refrigeração líquida e transmissão CVT. Ideal para iniciantes no off-road, oferece suspensão independente, tração 4×2/4×4 com bloqueio, assento duplo 40% maior, guincho e protetores de mão.',
+            modalCaracteristica: 'Possui estrutura de aço de alta resistência, motor SOHC monocilíndrico, refrigeração líquida e transmissão CVT. Ideal para iniciantes no off-road, oferece suspensão independente, tração 4×2/4×4 com bloqueio, assento duplo 40% maior, guincho e protetores de mão.',
             destaques: [
                 'Suspensão independente',
                 '31 cavalos de potência',
@@ -67,7 +67,7 @@ export function initVeiculosModal(){
             modalNome: 'CFORCE 520L EPS',
             modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520L.png',
             modalImgTextoAlt: 'Modelo CFORCE 520L EPS',
-            modalCaracteristica: 'O motor de 495cc do CFORCE 520L oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25". Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
+            modalCaracteristica: 'O seu motor de 495cc oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25". Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
             destaques: [
                 'Rodas de liga leve',
                 'Produzido no Brasil',
@@ -76,10 +76,10 @@ export function initVeiculosModal(){
         },
         {
             id: 13,
-            modalNome: 'SHARK 125 AUTOMATIC',
+            modalNome: 'SHARK 125',
             modalImg: 'assets/img/section-veiculos/modelos-funMotors/modal-SHARK-125.png',
             modalImgTextoAlt: 'SHARK 125',
-            modalCaracteristica: 'Mini-quadriciclo ideal para jovens a partir de 12 anos, ele combina emoção e segurança em cada trilha. Equipado com motor monocilíndrico, 4 tempos de 8,5CC, refrigerado a ar e câmbio totalmente automático. Além disso, conta com partida elétrica, rack dianteiro e traseiro, freio a disco e limitador de velocidade.',
+            modalCaracteristica: 'Mini-quadriciclo ideal para jovens a partir de 12 anos. Equipado com motor monocilíndrico, 4 tempos de 8,5CC, refrigerado a ar e câmbio totalmente automático. Além disso, conta com partida elétrica, rack dianteiro e traseiro, freio a disco e limitador de velocidade.',
             destaques: [
                 'Partida elétrica',
                 'Limitador de velocidade',
@@ -91,11 +91,11 @@ export function initVeiculosModal(){
             modalNome: 'RHINO 110',
             modalImg: 'assets/img/section-veiculos/modelos-funMotors/RHINO-110.png',
             modalImgTextoAlt: 'RHINO 110',
-            modalCaracteristica: 'O RHINO 110 e.',
+            modalCaracteristica: 'Perfeita para explorar novas aventuras em família. Seu design inovador e dirigibilidade moderna tornam-no não apenas um veículo de desempenho excepcional, mas também um meio envolvente para desfrutar momentos emocionantes com a família.',
             destaques: [
-                'item',
-                'item',
-                'item'
+                'Limitador de velocidade',
+                'Freio a disco',
+                'Câmbio automático com ré'
             ]
         },
         {
