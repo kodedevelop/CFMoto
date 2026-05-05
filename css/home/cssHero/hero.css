@@ -70,3 +70,7 @@ div.infos{
 .btn:hover {
   transform: scaleX(1.1);
 }
+
+#ctt {
+  scroll-margin-top: 100px; /* ajuste conforme seu header */
+}
