@@ -65,7 +65,7 @@ export function initVeiculosModal(){
         {
             id: 7,
             modalNome: 'CFORCE 520L EPS',
-            modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520L.png',
+            modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520l.png',
             modalImgTextoAlt: 'Modelo CFORCE 520L EPS',
             modalCaracteristica: 'O seu motor de 495cc oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25". Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
             destaques: [
