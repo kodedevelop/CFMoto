@@ -66,6 +66,7 @@ article.veiculo{
 }
 
 article.veiculo img.veiculoImg{
+    height: 190px;
     transition: scale .3s;
 }
 
