@@ -8,6 +8,12 @@
     article.veiculo{
         width: 400px;
     }
+
+    article.veiculo img.veiculoImg{
+        height: 200px;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 /* Telas com 755px - 954px*/
@@ -20,6 +26,8 @@
     div.veiculos{
         justify-content: space-between;
     }
+
+    
 
     /* Modal */
     div.veiculosModal{
@@ -45,6 +53,12 @@
     /* Card dos veículos */
     article.veiculo{
         width: 240px;
+    }
+
+    /* Card dos veículos */
+    article.veiculo img.veiculoImg{
+        height: 160px;
+        width: 100%;
     }
 
     /* Modal */
@@ -163,8 +177,8 @@
     }
 }
 
-/* Telas com ...px - 515px*/
-@media screen  and (max-width: 515px){
+/* Telas com 415px - 515px*/
+@media screen and (min-width: 415px) and (max-width: 515px){
     /* Section - Veículos */
     section.sectionVeiculos h1.sectionVeiculosTitulo{
         font-size: 24px;
@@ -189,12 +203,12 @@
     /* Card dos veículos */
     article.veiculo{
         width: 100%;
-        gap: 8px;
+        gap: 4px;
     }
 
     article.veiculo img.veiculoImg{
-        width: 50%;
-        height: 150px;
+        width: 80%;
+        height: 200px;
         margin: 0 auto;
     }
 
@@ -211,6 +225,92 @@
     /* Modal */
     div.veiculosModal{
         width: 75%;
+    }
+
+    h1.modalTitulo{
+        font-size: 20px;
+    }
+
+    img.modalImg{
+        width: 50%;
+    }
+
+    h2.modalSubTitulo{
+        margin-bottom: 4px;
+    }
+
+    p.modalParagrafo, li.modalListaItem{
+        font-size: 12px;
+    }
+
+    p.modalParagrafo{
+        text-align: justify;
+    }
+
+    ul.modalLista{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    i.bi-check-square{
+        font-size: 12px;
+    }
+
+    button.btn-bordaAzulCiano{
+        font-size: 12px;
+    }
+}
+
+/* Telas com ...px - 515px*/
+@media screen and (max-width: 415px){
+    /* Section - Veículos */
+    section.sectionVeiculos h1.sectionVeiculosTitulo{
+        font-size: 24px;
+    }
+
+    /* Container com os veículos */
+    h2.sectionVeiculosSubTitulo{
+        margin-left: 42px;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    h2.sectionVeiculosSubTitulo::before{
+        left: -42px;
+        top: 55%;
+        width: 30px;
+        height: 2px;
+        border-radius: 99px;
+        background-color: var(--preto1);
+    }
+
+    /* Card dos veículos */
+    article.veiculo{
+        width: 100%;
+        gap: 4px;
+    }
+
+    article.veiculo img.veiculoImg{
+        width: 80%;
+        height: 180px;
+        margin: 0 auto;
+    }
+
+    article.veiculo p{
+        font-size: 28px;
+    }
+
+    article.veiculo button.btn-bordaPreta{
+        margin: 0 auto;
+        width: 70%;
+        font-size: 12px;
+    }
+
+    /* Modal */
+    div.veiculosModal{
+        width: 75%;
+        gap: 8px;
     }
 
     h1.modalTitulo{

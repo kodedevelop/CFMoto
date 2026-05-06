@@ -207,16 +207,17 @@ button.btn-bordaAzulCiano{
     padding: 8px 0;
     font-size: 20px;
     text-transform: uppercase;
-    color: var(--azul-ciano1);
-    background-color: transparent;
+    color: var(--branco1);
+    background-color: var(--azul-ciano1);
     transition: all .3s;
 }
 
 button.btn-bordaAzulCiano:hover{
+    transform: scaleX(0.8);
     color: var(--branco1);
     background-color: var(--azul-ciano1);
 }
 
 button.btn-bordaAzulCiano:active{
-    scale: 0.8;
+    transform: scaleX(0.8);
 }
