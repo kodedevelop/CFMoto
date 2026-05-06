@@ -16,6 +16,18 @@ export function initVeiculosModal(){
     const veiculos = [
         {
             id: 1,
+            modalNome: 'TERROX 400L',
+            modalImg: 'assets/img/section-veiculos/modelos-goes/TERROX-400L.png',
+            modalImgTextoAlt: 'Modelo terrox 400L',
+            modalCaracteristica: 'Equipado com um motor de 400cc, câmbio CVT, suspensão independente nas quatro rodas, garantindo uma condução segura e confortável.',
+            destaques: [
+                '30 HP a 7.200 rpm',
+                '3 Anos de Garantia',
+                'Injeção Eletrônica'
+            ]
+        },
+        {
+            id: 2,
             modalNome: 'CFORCE 110',
             modalImg: 'assets/img/section-veiculos/modelos-youth/CFORCE-110.png',
             modalImgTextoAlt: 'Modelo Cforce 110',
@@ -27,7 +39,7 @@ export function initVeiculosModal(){
             ]
         },
         {
-            id: 2,
+            id:3,
             modalNome: 'CFORCE 100 LV',
             modalImg: 'assets/img/section-veiculos/modelos-youth/CFORCE-110LV.png',
             modalImgTextoAlt: 'Modelo CFORCE 100 LV',
@@ -51,7 +63,7 @@ export function initVeiculosModal(){
             ]
         },
         {
-            id: 6,
+            id: 5,
             modalNome: 'CFORCE 450L EPS',
             modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-450L.png',
             modalImgTextoAlt: 'Modelo CFORCE 450L EPS',
@@ -63,7 +75,7 @@ export function initVeiculosModal(){
             ]
         },
         {
-            id: 7,
+            id: 6,
             modalNome: 'CFORCE 520L EPS',
             modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520l.png',
             modalImgTextoAlt: 'Modelo CFORCE 520L EPS',
@@ -75,7 +87,7 @@ export function initVeiculosModal(){
             ]
         },
         {
-            id: 13,
+            id: 7,
             modalNome: 'SHARK 125',
             modalImg: 'assets/img/section-veiculos/modelos-funMotors/modal-SHARK-125.png',
             modalImgTextoAlt: 'SHARK 125',
@@ -87,7 +99,7 @@ export function initVeiculosModal(){
             ]
         },
         {
-            id: 14,
+            id: 8,
             modalNome: 'RHINO 110',
             modalImg: 'assets/img/section-veiculos/modelos-funMotors/RHINO-110.png',
             modalImgTextoAlt: 'RHINO 110',
@@ -98,18 +110,6 @@ export function initVeiculosModal(){
                 'Câmbio automático com ré'
             ]
         },
-        {
-            id: 16,
-            modalNome: 'TERROX 400L',
-            modalImg: 'assets/img/section-veiculos/modelos-goes/TERROX-400L.png',
-            modalImgTextoAlt: 'Modelo terrox 400L',
-            modalCaracteristica: 'Equipado com um motor de 400cc, câmbio CVT, suspensão independente nas quatro rodas, garantindo uma condução segura e confortável.',
-            destaques: [
-                '30 HP a 7.200 rpm',
-                '3 Anos de Garantia',
-                'Injeção Eletrônica'
-            ]
-        }
     ];
 
 
