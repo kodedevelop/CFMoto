@@ -1,3 +1,128 @@
+// Dados dos veículos
+const veiculos = [
+    {
+        id: 1,
+        veiculoNome: 'TERROX 400L',
+        veiculoPreco: 'R$ 44.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-goes/TERROX-400L.png',
+        veiculoImgTextoAlt: 'Modelo terrox 400L',
+        veiculolCaracteristica: 'Equipado com um motor de 400cc, câmbio CVT, suspensão independente nas quatro rodas, garantindo uma condução segura e confortável.',
+        veiculoDestaques: [
+            '30 HP a 7.200 rpm',
+            '3 Anos de Garantia',
+            'Injeção Eletrônica'
+        ]
+    },
+    {
+        id: 2,
+        veiculoNome: 'CFORCE 110',
+        veiculoPreco: 'R$ 20.790,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-youth/CFORCE-110.png',
+        veiculoImgTextoAlt: 'Modelo Cforce 110',
+        veiculolCaracteristica: 'Quadriciclo ideal para jovens pilotos. Com motor de 110cc, suspensão independente e freios a disco, oferece pilotagem ágil e controlada. Recursos como limitador de velocidade e faróis de LED garantem mais segurança.',
+        veiculoDestaques: [
+            'Freio a Disco',
+            'Limitador de velocidade mecânico',
+            '3 Anos de garantia total'
+        ]
+    },
+    {
+        id:3,
+        veiculoNome: 'CFORCE 100 LV',
+        veiculoPreco: 'R$ 16.790,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-youth/CFORCE-110LV.png',
+        veiculoImgTextoAlt: 'Modelo CFORCE 100 LV',
+        veiculolCaracteristica: 'Sendo a versão de entrada do CFORCE 110, ele possui um tamanho perfeito para crianças a partir de 10 anos e é ideal para quem está em busca de um mini-quadriciclo com ótimo custo-benefício. Enfrenta qualquer terreno, ajudando jovens pilotos a ganharem confiança.',
+        veiculoDestaques: [
+            'FMotor de 107cc',
+            'Limitador de velocidade mecânico',
+            '3 anos de garantia total'
+        ]
+    },
+    {
+        id: 4,
+        veiculoNome: 'MINI-MOTO CX-5E',
+        veiculoPreco: 'R$ 9.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-youth/MINI-MOTO-CX-5E.webp',
+        veiculoImgTextoAlt: 'Modelo MINI-MOTO CX-5E',
+        veiculolCaracteristica: 'Mini moto 100% elétrica para pilotos de 8 a 12 anos. Com bateria de 48V, carrega em 5h e atinge 46 km/h, possui três modos de condução, controle de velocidade, amortecedor ajustável, freios a disco e painel com indicadores.',
+        veiculoDestaques: [
+            '3 modos de condução',
+            'Velocidade máxima de 46km/h',
+            '3 Anos de garantia total'
+        ]
+    },
+    {
+        id: 5,
+        veiculoNome: 'CFORCE 450L EPS',
+        veiculoPreco: 'R$ 58.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-450L.png',
+        veiculoImgTextoAlt: 'Modelo CFORCE 450L EPS',
+        veiculolCaracteristica: 'Possui estrutura de aço de alta resistência, motor SOHC monocilíndrico, refrigeração líquida e transmissão CVT. Ideal para iniciantes no off-road, oferece suspensão independente, tração 4×2/4×4 com bloqueio, assento duplo 40% maior, guincho e protetores de mão.',
+        veiculoDestaques: [
+            'Suspensão independente',
+            '31 cavalos de potência',
+            '3 anos de garantia total'
+        ]
+    },
+    {
+        id: 6,
+        veiculoNome: 'CFORCE 520L EPS',
+        veiculoPreco: 'R$ 68.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520l.png',
+        veiculoImgTextoAlt: 'Modelo CFORCE 520L EPS',
+        veiculolCaracteristica: 'O seu motor de 495cc oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25". Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
+        veiculoDestaques: [
+            'Rodas de liga leve',
+            'Produzido no Brasil',
+            '3 anos de garantia total'
+        ]
+    },
+    {
+        id: 7,
+        veiculoNome: 'SHARK 125',
+        veiculoPreco: 'R$ 14.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-funMotors/modal-SHARK-125.png',
+        veiculoImgTextoAlt: 'SHARK 125',
+        veiculolCaracteristica: 'Mini-quadriciclo ideal para jovens a partir de 12 anos. Equipado com motor monocilíndrico, 4 tempos de 8,5CC, refrigerado a ar e câmbio totalmente automático. Além disso, conta com partida elétrica, rack dianteiro e traseiro, freio a disco e limitador de velocidade.',
+        veiculoDestaques: [
+            'Partida elétrica',
+            'Limitador de velocidade',
+            'Câmbio automático com ré'
+        ]
+    },
+    {
+        id: 8,
+        veiculoNome: 'RHINO 110',
+        veiculoPreco: 'R$ 11.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-funMotors/RHINO-110.png',
+        veiculoImgTextoAlt: 'RHINO 110',
+        veiculolCaracteristica: 'Perfeita para explorar novas aventuras em família. Seu design inovador e dirigibilidade moderna tornam-no não apenas um veículo de desempenho excepcional, mas também um meio envolvente para desfrutar momentos emocionantes com a família.',
+        veiculoDestaques: [
+            'Limitador de velocidade',
+            'Freio a disco',
+            'Câmbio automático com ré'
+        ]
+    },
+];
+
+
+// Função dos cards
+export function initVeiculosCard(){
+    const cardsTitulo = document.querySelectorAll('.veiculo h3');
+    const cardsPreco  = document.querySelectorAll('.veiculo p');
+    const cardsImg    = document.querySelectorAll('.veiculoImg');
+
+    // Percorre cada card e aplica as informações de acordo que aparece no array veiculos
+    // OBS: A ordem do HTML tem que ser igual à do array (o 1º card representa o index 0 e o 1º objeto representa o index 0 de veiculos, etc...)
+    veiculos.forEach((veiculo, index) => {
+        cardsTitulo[index].textContent = veiculo.veiculoNome;
+        cardsImg[index].src            = veiculo.veiculoImg;
+        cardsPreco[index].textContent  = veiculo.veiculoPreco;
+    });
+}
+
+// Função do modal
 export function initVeiculosModal(){
     // Variáveis
     const buttonsConhecerModelo = document.querySelectorAll('.btn-bordaPreta');
@@ -12,121 +137,21 @@ export function initVeiculosModal(){
     const modalButtonWhatsApp = document.querySelector('.btn-bordaAzulCiano');
     let veiculoAtual = null;
 
-    // Dados dos veículos
-    const veiculos = [
-        {
-            id: 1,
-            modalNome: 'TERROX 400L',
-            modalImg: 'assets/img/section-veiculos/modelos-goes/TERROX-400L.png',
-            modalImgTextoAlt: 'Modelo terrox 400L',
-            modalCaracteristica: 'Equipado com um motor de 400cc, câmbio CVT, suspensão independente nas quatro rodas, garantindo uma condução segura e confortável.',
-            destaques: [
-                '30 HP a 7.200 rpm',
-                '3 Anos de Garantia',
-                'Injeção Eletrônica'
-            ]
-        },
-        {
-            id: 2,
-            modalNome: 'CFORCE 110',
-            modalImg: 'assets/img/section-veiculos/modelos-youth/CFORCE-110.png',
-            modalImgTextoAlt: 'Modelo Cforce 110',
-            modalCaracteristica: 'Quadriciclo ideal para jovens pilotos. Com motor de 110cc, suspensão independente e freios a disco, oferece pilotagem ágil e controlada. Recursos como limitador de velocidade e faróis de LED garantem mais segurança.',
-            destaques: [
-                'Freio a Disco',
-                'Limitador de velocidade mecânico',
-                '3 Anos de garantia total'
-            ]
-        },
-        {
-            id:3,
-            modalNome: 'CFORCE 100 LV',
-            modalImg: 'assets/img/section-veiculos/modelos-youth/CFORCE-110LV.png',
-            modalImgTextoAlt: 'Modelo CFORCE 100 LV',
-            modalCaracteristica: 'Sendo a versão de entrada do CFORCE 110, ele possui um tamanho perfeito para crianças a partir de 10 anos e é ideal para quem está em busca de um mini-quadriciclo com ótimo custo-benefício. Enfrenta qualquer terreno, ajudando jovens pilotos a ganharem confiança.',
-            destaques: [
-                'FMotor de 107cc',
-                'Limitador de velocidade mecânico',
-                '3 anos de garantia total'
-            ]
-        },
-        {
-            id: 4,
-            modalNome: 'MINI-MOTO CX-5E',
-            modalImg: 'assets/img/section-veiculos/modelos-youth/MINI-MOTO-CX-5E.webp',
-            modalImgTextoAlt: 'Modelo MINI-MOTO CX-5E',
-            modalCaracteristica: 'Mini moto 100% elétrica para pilotos de 8 a 12 anos. Com bateria de 48V, carrega em 5h e atinge 46 km/h, possui três modos de condução, controle de velocidade, amortecedor ajustável, freios a disco e painel com indicadores.',
-            destaques: [
-                '3 modos de condução',
-                'Velocidade máxima de 46km/h',
-                '3 Anos de garantia total'
-            ]
-        },
-        {
-            id: 5,
-            modalNome: 'CFORCE 450L EPS',
-            modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-450L.png',
-            modalImgTextoAlt: 'Modelo CFORCE 450L EPS',
-            modalCaracteristica: 'Possui estrutura de aço de alta resistência, motor SOHC monocilíndrico, refrigeração líquida e transmissão CVT. Ideal para iniciantes no off-road, oferece suspensão independente, tração 4×2/4×4 com bloqueio, assento duplo 40% maior, guincho e protetores de mão.',
-            destaques: [
-                'Suspensão independente',
-                '31 cavalos de potência',
-                '3 anos de garantia total'
-            ]
-        },
-        {
-            id: 6,
-            modalNome: 'CFORCE 520L EPS',
-            modalImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520l.png',
-            modalImgTextoAlt: 'Modelo CFORCE 520L EPS',
-            modalCaracteristica: 'O seu motor de 495cc oferece mais potência e versatilidade. Com direção elétrica (EPS), maior torque, rodas de liga leve e pneus off-road de 25". Equipado com guincho elétrico de 1.134kg, protetores de mão, bagageiros CF CONNECT e uma gama de acessórios.',
-            destaques: [
-                'Rodas de liga leve',
-                'Produzido no Brasil',
-                '3 anos de garantia total'
-            ]
-        },
-        {
-            id: 7,
-            modalNome: 'SHARK 125',
-            modalImg: 'assets/img/section-veiculos/modelos-funMotors/modal-SHARK-125.png',
-            modalImgTextoAlt: 'SHARK 125',
-            modalCaracteristica: 'Mini-quadriciclo ideal para jovens a partir de 12 anos. Equipado com motor monocilíndrico, 4 tempos de 8,5CC, refrigerado a ar e câmbio totalmente automático. Além disso, conta com partida elétrica, rack dianteiro e traseiro, freio a disco e limitador de velocidade.',
-            destaques: [
-                'Partida elétrica',
-                'Limitador de velocidade',
-                'Câmbio automático com ré'
-            ]
-        },
-        {
-            id: 8,
-            modalNome: 'RHINO 110',
-            modalImg: 'assets/img/section-veiculos/modelos-funMotors/RHINO-110.png',
-            modalImgTextoAlt: 'RHINO 110',
-            modalCaracteristica: 'Perfeita para explorar novas aventuras em família. Seu design inovador e dirigibilidade moderna tornam-no não apenas um veículo de desempenho excepcional, mas também um meio envolvente para desfrutar momentos emocionantes com a família.',
-            destaques: [
-                'Limitador de velocidade',
-                'Freio a disco',
-                'Câmbio automático com ré'
-            ]
-        },
-    ];
 
-
-    // Preenche o modal com as informações do veículos
+    // Preenche o modal com as informações do veículo
     function preencherModal(veiculo) {
         veiculoAtual = veiculo; // salva o veículo atual
         
-        modalTitulo.textContent = veiculo.modalNome;
-        modalImg.src = veiculo.modalImg;
-        modalImg.alt = veiculo.modalImgTextoAlt;
-        modalParagrafo.textContent = veiculo.modalCaracteristica;
+        modalTitulo.textContent = veiculo.veiculoNome;
+        modalImg.src = veiculo.veiculoImg;
+        modalImg.alt = veiculo.veiculoImgTextoAlt;
+        modalParagrafo.textContent = veiculo.veiculolCaracteristica;
     
         modalListaItens.forEach((item, index) => {
-            item.innerHTML = `<i class="bi bi-check-square"></i> ${veiculo.destaques[index]}`;
+            item.innerHTML = `<i class="bi bi-check-square"></i> ${veiculo.veiculoDestaques[index]}`;
         });
     }
-    
+
     // Exibe o modal
     function abrirModal() { fundoEscuroModal.style.display = 'block'; }
     
@@ -177,7 +202,7 @@ export function initVeiculosModal(){
     modalButtonWhatsApp.addEventListener('click', () => {
         if (!veiculoAtual) return;
 
-        const link = gerarLinkWhatsApp(veiculoAtual.modalNome);
+        const link = gerarLinkWhatsApp(veiculoAtual.veiculoNome);
 
         window.open(link, '_blank');
     });
