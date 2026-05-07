@@ -41,19 +41,6 @@ const veiculos = [
     },
     {
         id: 4,
-        veiculoNome: 'MINI-MOTO CX-5E',
-        veiculoPreco: 'R$ 9.990,00',
-        veiculoImg: 'assets/img/section-veiculos/modelos-youth/MINI-MOTO-CX-5E.webp',
-        veiculoImgTextoAlt: 'Modelo MINI-MOTO CX-5E',
-        veiculolCaracteristica: 'Mini moto 100% elétrica para pilotos de 8 a 12 anos. Com bateria de 48V, carrega em 5h e atinge 46 km/h, possui três modos de condução, controle de velocidade, amortecedor ajustável, freios a disco e painel com indicadores.',
-        veiculoDestaques: [
-            '3 modos de condução',
-            'Velocidade máxima de 46km/h',
-            '3 Anos de garantia total'
-        ]
-    },
-    {
-        id: 5,
         veiculoNome: 'CFORCE 450L EPS',
         veiculoPreco: 'R$ 58.990,00',
         veiculoImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-450L.png',
@@ -66,7 +53,7 @@ const veiculos = [
         ]
     },
     {
-        id: 6,
+        id: 5,
         veiculoNome: 'CFORCE 520L EPS',
         veiculoPreco: 'R$ 68.990,00',
         veiculoImg: 'assets/img/section-veiculos/modelos-cforce/CFORCE-520l.png',
@@ -79,7 +66,7 @@ const veiculos = [
         ]
     },
     {
-        id: 7,
+        id: 6,
         veiculoNome: 'SHARK 125',
         veiculoPreco: 'R$ 14.990,00',
         veiculoImg: 'assets/img/section-veiculos/modelos-funMotors/modal-SHARK-125.png',
@@ -92,7 +79,7 @@ const veiculos = [
         ]
     },
     {
-        id: 8,
+        id: 7,
         veiculoNome: 'RHINO 110',
         veiculoPreco: 'R$ 11.990,00',
         veiculoImg: 'assets/img/section-veiculos/modelos-funMotors/RHINO-110.png',
