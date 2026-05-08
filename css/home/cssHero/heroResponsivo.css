@@ -14,6 +14,23 @@
         width: calc(100% + 40px);
         min-height: auto; 
         height: auto;
+        margin-bottom: -50px;
+    }
+
+    .vehicles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vehicles img {
+        width: 100%;
+        height: 80%;
+    }
+
+    div.infos {
+        top: auto;
+        bottom: 40px;
     }
 }
 
@@ -22,9 +39,27 @@
         width: calc(100% + 40px);
         min-height: auto; 
         height: auto;
+        margin-bottom: -80px;
     }
-    
+
+    .vehicles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vehicles img {
+        width: 100%;
+        height: 70%;
+    }
+
+    div.infos {
+        top: auto;
+        bottom: 60px;
+    }
+
     .background-text {
+        margin-top: 50px;
         transform: translate(-50%, -50%);
         letter-spacing: -1px;
         font-size: 72px;
