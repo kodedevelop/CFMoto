@@ -1,6 +1,19 @@
 // Dados dos veículos
 const veiculos = [
     {
+        id: 0,
+        veiculoNome: 'ZFORCE 950 SPORT-4',
+        veiculoPreco: 'R$ 149.990,00',
+        veiculoImg: 'assets/img/section-veiculos/modelos-zforce/ZFORCE-950SPORT4.png',
+        veiculoImgTextoAlt: 'ZFORCE 950 SPORT-4',
+        veiculolCaracteristica: 'Com design moderno e componentes premium, tem desempenho excepcional em qualquer terreno. Equipado com 4 lugares, controle variável de EPS, suspensão dianteira com dois braços em A, suspensão traseira Multi-link e modos NORMAL/SPORT.',
+        veiculoDestaques: [
+            'Rodas com Beadlock',
+            'Guincho de 2.050 kg',
+            '3 Anos de Garantia'
+        ]
+    },
+    {
         id: 1,
         veiculoNome: 'TERROX 400L',
         veiculoPreco: 'R$ 44.990,00',
@@ -91,6 +104,7 @@ const veiculos = [
             'Câmbio automático com ré'
         ]
     },
+    
 ];
 
 
@@ -139,10 +153,10 @@ export function initVeiculosModal(){
         });
     }
 
-    // Exibe o modal
+    // Função para exibir o modal
     function abrirModal() { fundoEscuroModal.style.display = 'block'; }
     
-    // Oculta o modal
+    // Função para ocultar o modal
     function fecharModal() { fundoEscuroModal.style.display = 'none'; }
     
     // Abre o modal
