@@ -192,7 +192,7 @@ export function initVeiculosModal(){
     const telefone = '5581994253143';
 
     // Função para enviar mensagem
-    function gerarLinkWhatsApp(nomeVeiculo) {
+    function mensagemWhatsapp(nomeVeiculo) {
         const mensagem = `Olá! Vim pelo site e fiquei interessado pelo modelo: *${nomeVeiculo}*.`;
 
         const mensagemCodificada = encodeURIComponent(mensagem);
@@ -203,7 +203,7 @@ export function initVeiculosModal(){
     modalButtonWhatsApp.addEventListener('click', () => {
         if (!veiculoAtual) return;
 
-        const link = gerarLinkWhatsApp(veiculoAtual.veiculoNome);
+        const link = mensagemWhatsapp(veiculoAtual.veiculoNome);
 
         window.open(link, '_blank');
     });
