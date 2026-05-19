@@ -189,7 +189,7 @@ export function initVeiculosModal(){
 
 
     // Envia mensagem para o whatsapp com o modelo respectivo
-    const telefone = '5581994253143';
+    const telefone = '558131254455';
 
     // Função para enviar mensagem
     function mensagemWhatsapp(nomeVeiculo) {

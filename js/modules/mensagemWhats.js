@@ -24,7 +24,7 @@ function enviarParaWhatsApp() {
   const telefone = document.getElementById('telefone').value.trim();
   const email = document.getElementById('email').value.trim();
 
-  const numeroWhatsApp = '5581994253143';
+  const numeroWhatsApp = '558131254455';
 
   const texto = `*Nome:* ${nome}\n*Telefone:* ${telefone}\n*E-mail:* ${email}`;
 
