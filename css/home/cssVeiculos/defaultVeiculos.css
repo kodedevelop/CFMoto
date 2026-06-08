@@ -107,6 +107,13 @@ article.veiculo button.btn-bordaPreta:active{
     scale: .8;
 }
 
+.texto-consorcio {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+
 /* Modal */
 div#modalFundoEscuro{
     z-index: 2;
